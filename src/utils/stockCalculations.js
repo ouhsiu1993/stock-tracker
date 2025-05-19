@@ -32,8 +32,8 @@ export const enrichStocksWithCalculatedValues = (stocksData) => {
     
     // 計算年貢獻 (配置比例 × 年報酬率)
     // 修正: 將比例換算為小數點(百分比除以100)再乘以年報酬率
-    const currentYearContribution = stock.cagr !== undefined ? (currentAllocation / 100 * (stock.cagr/100)) : null;
-    const yearContribution = stock.cagr !== undefined ? (targetAllocation / 100 * (stock.cagr/100)) : null;
+    const currentYearContribution = stock.cagr !== undefined ? (currentAllocation / 100 * stock.cagr) : null;
+    const yearContribution = stock.cagr !== undefined ? (targetAllocation / 100 * stock.cagr) : null;
     
     // 計算達成率
     const progress = stock.targetQuantity > 0 ? (stock.currentQuantity / stock.targetQuantity) * 100 : 0;
