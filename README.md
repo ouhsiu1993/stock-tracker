@@ -150,6 +150,5 @@ npm run server
 
 ## 聯絡方式
 
-您的姓名 - [@twitter_handle](https://twitter.com/twitter_handle) - email@example.com
-
-專案連結: [https://github.com/yourusername/stock-portfolio-tracker](https://github.com/yourusername/stock-portfolio-tracker)
+GitHub Issues: https://github.com/ouhsiu1993/stock-tracker/issues
+Email: ouhsiu1993@gmail.com
