@@ -151,4 +151,5 @@ npm run server
 ## 聯絡方式
 
 GitHub Issues: https://github.com/ouhsiu1993/stock-tracker/issues
+
 Email: ouhsiu1993@gmail.com
